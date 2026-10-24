@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F7FB;
+    color: #333333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #274C77;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A9D6F5;
+}
+
+section {
+    padding: 45px 8%;
+    text-align: center;
+    scroll-margin-top: 20px;
+}
+
+section h2 {
+    color: #274C77;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#home {
+    background-color: #DCE8F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.home-text {
+    max-width: 500px;
+}
+
+.home-text h1 {
+    color: #274C77;
+    font-size: 48px;
+    margin: 0;
+}
+
+.home-text h3 {
+    color: #274C77;
+    font-weight: normal;
+}
+
+.home-image img {
+    width: 230px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #274C77;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #1B365D;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.education-container {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+}
+
+.education-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.education-card h3 {
+    color: #274C77;
+    margin: 0;
+}
+
+.education-card p {
+    margin: 5px 0;
+}
+
+.education-icon, .experience-icon {
+    background-color: #DCE8F7;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#skills {
+    background-color: #EAF2FB;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(39, 76, 119, 0.12);
+    box-sizing: border-box;
+}
+
+.skill-icon {
+    background-color: #DCE8F7;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin: 0 auto 12px;
+}
+
+.card h3 {
+    color: #274C77;
+    margin-top: 5px;
+}
+
+.experience-card {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(39, 76, 119, 0.08);
+}
+
+.experience-text h3 {
+    color: #274C77;
+    margin: 0;
+}
+
+.experience-period {
+    color: #66809D;
+    font-size: 14px;
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+.experience-tags span {
+    background-color: #DCE8F7;
+    color: #274C77;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.project-card {
+    text-align: left;
+    width: 250px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-bottom: 5px;
+}
+
+.project-card p {
+    font-size: 14px;
+}
+
+.project-type {
+    color: #66809D;
+    margin-top: 0;
+}
+
+#contact {
+    background-color: #DCE8F7;
+}
+
+footer {
+    background-color: #274C77;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 700px) {
+    nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .home-text h1 {
+        font-size: 36px;
+    }
+
+    .home-image img {
+        width: 180px;
+        height: 220px;
+    }
+
+    section {
+        padding: 35px 20px;
+    }
+
+    .education-card {
+        padding: 15px;
+    }
+
+    .experience-card {
+        padding: 18px;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
